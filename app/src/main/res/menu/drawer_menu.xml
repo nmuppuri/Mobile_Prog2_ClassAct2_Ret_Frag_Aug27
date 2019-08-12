@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/first"
+            android:title="First Fragment"
+            android:icon="@drawable/images"/>
+        <item android:id="@+id/second"
+                android:title="Second Fragment"
+            />
+        <item android:id="@+id/third"
+            android:title="Third Fragment"/>
+    </group>
+
+
+
+
+</menu>
