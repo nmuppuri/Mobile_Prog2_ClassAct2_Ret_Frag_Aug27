@@ -6,20 +6,10 @@
     tools:context=".FirstFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-
-        android:layout_alignParentBottom="true"
-
-
-        android:layout_marginTop="288dp"
-        android:layout_marginBottom="408dp"
-        android:gravity="center"
-        android:text="First Fragment"
-        android:id="@+id/first_fragment"
-        android:textSize="25sp" />
+        android:id="@+id/recycle_poke"/>
 
 </RelativeLayout>
